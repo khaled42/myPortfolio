@@ -1,0 +1,93 @@
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* start styling the banner */
+header{
+  background-image: url('../images/banner-image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display:table;
+}
+.banner{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.banner h2{
+  width: fit-content;
+  margin: auto;
+  font-family: caveat;
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 2px 2px  #111;
+  text-align: center;
+  border-width: 2px 0px;
+  border-style: solid;
+}
+
+.banner a{
+  color: #fff;
+  border-width: 2px 2px;
+  border-style: solid;
+  padding: 10px;
+  margin: 10px;
+  text-transform: capitalize;
+}
+/* end styling the banner */
+/* start styling the navBar */
+
+nav{
+  width: 100%;
+  height: 80px;
+  background-color: #252f31;
+}
+
+.logo{
+  float:left;
+  font-size: 40px;
+  font-family: Caveat;
+  color: #fff;
+
+
+}
+.logo span{
+  color: #2bcc6e;
+  line-height: 80px;
+}
+
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.wrapper ul{
+  float: right;
+  line-height: 80px;
+
+}
+.wrapper ul li{
+  margin-right: 10px;
+  float: left;
+  display: inline-block;
+  list-style: none;
+  height: 80px;
+}
+.wrapper ul li a{
+  display: block;
+  padding: 0px 5px;
+  font-size: 20px;
+  color: #fff;
+
+}
+.wrapper ul li a:hover{
+  color: #2bcc6e; 
+}
+
+/* end styling the navBar */
