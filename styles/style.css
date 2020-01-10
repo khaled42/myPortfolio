@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
 }
-
 /* start styling the banner */
 header{
   background-image: url('../images/banner-image.jpg');
@@ -42,7 +41,7 @@ header{
 /* end styling the banner */
 /* start styling the navBar */
 
-nav{
+#navBar{
   width: 100%;
   height: 80px;
   background-color: #252f31;
@@ -67,27 +66,97 @@ nav{
 
 }
 
-.wrapper ul{
+#navBar .wrapper ul{
   float: right;
   line-height: 80px;
 
 }
-.wrapper ul li{
+#navBar .wrapper ul li{
   margin-right: 10px;
   float: left;
   display: inline-block;
   list-style: none;
   height: 80px;
 }
-.wrapper ul li a{
+#navBar .wrapper ul li a{
   display: block;
   padding: 0px 5px;
   font-size: 20px;
   color: #fff;
 
 }
-.wrapper ul li a:hover{
-  color: #2bcc6e; 
+#navBar .wrapper ul li a:hover{
+  color: #2bcc6e;
+}
+/* end styling the navBar */
+
+/* start styling the section About-me */
+main{
+  background: #f2f2f2;
+  color: #222;
+}
+.about-me{
+  height:100vh;
+}
+.feats{
+  height: 25vh;
+  background-color: #ffffff;
+}
+.feats ul{
+  width: 100%;
+  height: 100%;
+
+}
+.feats ul li{
+  list-style: none;
+  display: inline-block;
+  width: 48%;
 }
 
-/* end styling the navBar */
+.feats ul li div{
+  padding: 5px 10px;
+}
+.feats ul li div h1{
+  margin: 0px;
+  padding: 10px 0px;
+  text-align: center;
+  color: #576566;
+
+}
+.feats ul li div p{
+  text-align: justify;
+  font-size: 20px;
+  text-indent: 10px;
+  line-height:20px;
+
+}
+.about-me .my-photo{
+  background-image: url("../images/me.jpg");
+  width: 40%;
+  height: 75vh;
+  margin-right: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+.about-me article{
+  ;
+}
+.about-me article h1{
+  576566
+  font-weight: 900;
+  font-family: sans-serif;
+  font-size: 40px;
+  margin: 0px;
+  padding: 20px
+}
+.about-me article p{
+
+  font-size: 20px;
+  text-align: justify;
+  text-indent: 10px;
+  font-family:  sans-serif;
+  line-height: 30px;
+
+}
